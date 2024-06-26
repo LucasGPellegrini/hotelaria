@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fetch Test</title>
+    <h2></h2>
+</head>
+ 
+<body>
+  <script>
+  	  async function fetchGET() {
+
+  	 	 const res = await fetch ("http://localhost:8080/usuario", {
+  	 	 	 method: "GET"
+  	 	 });
+  	  
+  	     const json = await res.json();
+  	  
+  	     console.log(JSON.stringify(json))
+  	  }
+  	  
+  	  fetchGET()
+  	  
+  	  document.body.innerHTML = "<h2> Fetch Executou!</h2>"
+  </script>
+</body>
+ 
+</html>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="245f2fb9-2468-4a78-a122-c5ccc5d4c7d9" name="Changes" comment="Projeto iniciado">
+      <change beforePath="$PROJECT_DIR$/hotelariaREST_API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hotelariaREST_API/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelariaREST_API/src/main/java/com/projeto/hotelaria/controller/UsuariosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelariaREST_API/src/main/java/com/projeto/hotelaria/controller/UsuariosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelariaREST_API/src/main/java/com/projeto/hotelaria/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelariaREST_API/src/main/java/com/projeto/hotelaria/model/Usuario.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hotelariaREST_API" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2iLNYnjKbtax09uANBbK7G8VUgM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.HotelariaApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/lucas/faculdade/web/hotelaria/hotelariaREST_API",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.projeto.hotelaria.controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.projeto.hotelaria.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HotelariaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hotelariaREST_API" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.projeto.hotelaria.HotelariaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-bfa3237e" />
+        <option value="jdk-22-openjdk-22-4caba194b151-6fbd92ee" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="245f2fb9-2468-4a78-a122-c5ccc5d4c7d9" name="Changes" comment="" />
+      <created>1719265947406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719265947406</updated>
+      <workItem from="1719265948451" duration="307000" />
+      <workItem from="1719266644906" duration="1795000" />
+      <workItem from="1719323907863" duration="1932000" />
+      <workItem from="1719336335570" duration="237000" />
+      <workItem from="1719346225474" duration="3376000" />
+      <workItem from="1719349608736" duration="533000" />
+      <workItem from="1719354752909" duration="2448000" />
+      <workItem from="1719403308506" duration="215000" />
+      <workItem from="1719403530516" duration="14000" />
+    </task>
+    <task id="LOCAL-00001" summary="Projeto iniciado">
+      <option name="closed" value="true" />
+      <created>1719349455274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719349455275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto iniciado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto iniciado" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="org.hibernate.HibernateException" package="org.hibernate" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
