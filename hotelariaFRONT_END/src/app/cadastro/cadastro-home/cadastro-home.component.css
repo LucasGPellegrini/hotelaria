@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Glacial indifference;
+    src: url('../../../fonts/GlacialIndifference-Regular.otf');
+}
+
+.principal {
+    font-family: 'Bree Serif';
+    font-size: 4.5rem;
+    color: #5829bb;
+}
+
+.texto {
+    font-family: 'Glacial indifference';
+    font-size: 2rem;
+}
+
+.textinho {
+    font-family: 'Glacial indifference';
+    font-size: 1.2rem; 
+}
+
+#left_col { 
+    padding-left: 8%;
+}
+
+#right_col {
+    margin-left: 0; 
+    margin-right: auto;
+}
+
+#main_img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+pre {
+    white-space: pre-line;
+}
+
+input {
+    font-size: 1.4rem;
+}
+
+button {
+    width: 100%;
+}

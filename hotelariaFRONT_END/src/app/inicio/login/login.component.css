@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Glacial indifference;
+    src: url('../../../fonts/GlacialIndifference-Regular.otf');
+}
+
+.principal {
+    font-family: 'Bree Serif';
+    font-size: 4.5rem;
+    color: #5829bb;
+}
+
+.texto {
+    font-family: 'Glacial indifference';
+    font-size: 2rem;
+}
+
+.textinho {
+    font-family: 'Glacial indifference';
+    font-size: 1.2rem; 
+}
+
+.cpfdiv {
+    display: grid;
+    width: 65%;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.cadastrar_div {
+    display: grid;
+    width: 65%;
+}
+
+.cadastrar_div>label {
+    margin-bottom: 0.45rem;
+}
+
+#t1 {
+    padding-top: 3rem;
+}
+
+#col2 {
+    padding-left: 2.5rem;
+}
+
+#main_img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#continuar {
+    font-family: 'Glacial indifference';
+    font-size: 1.6rem;
+}
+
+#cadastrar {
+    font-family: 'Glacial indifference';
+    font-size: 1.6rem;
+    /*background-color: #11255c;*/
+}
+
+#cpf_input {
+    padding-top: 0.45rem;
+    padding-bottom: 0.35rem;
+}
+pre {
+    white-space: pre-line;
+}
+
+input {
+    font-size: 1.4rem;
+}
+
+button {
+    width: 100%;
+}
