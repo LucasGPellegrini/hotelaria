@@ -8,7 +8,26 @@
           benefícios
         </pre>
         
-        
+        <div class="form">
+          <label class="textinho">Insira seu CPF abaixo:</label>
+          <div class="ui input focus" id="cpfdivinput">
+            <input type="text" id="cpfinput"
+            placeholder="123.456.789-10"
+            pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}">
+          </div>
+
+          <label class="textinho">Insira seu nome completo abaixo:</label>
+          <div class="ui input focus" id="nomedivinput">
+            <input type="text" id="nomeinput"
+            placeholder="Maria dos Santos Silva">
+          </div>
+
+          <label class="textinho">Insira sua data de nascimento abaixo:</label>
+          <div class="ui input focus" id="nascdivinput">
+            <input type="date" id="nascinput">
+          </div>
+          <button class="ui primary button" id="continuar" (click)="onClickContinuar()">Continuar</button>
+        </div>
       </div>
 
       <div class="column" id="right_col">

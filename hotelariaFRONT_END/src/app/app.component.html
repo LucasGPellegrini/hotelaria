@@ -1,8 +1,8 @@
 <div class="ui container">
     <div class="ui secondary pointing menu">
         <a routerLink="/inicio" routerLinkActive="active" class="active item">Meu Perfil <i class="user icon"></i></a>
-        <a routerLink="/home" routerLinkActive="active" class="item">Home <i class="home icon"></i></a>
-        <a routerLink="/reservas" routerLinkActive="active" class="item">Minhas Reservas <i class="calendar check icon"></i></a>
+        <a routerLink="/home" routerLinkActive="active" class="item" [class.disabled]="!user">Home <i class="home icon"></i></a>
+        <a routerLink="/reservas" routerLinkActive="active" class="item" [class.disabled]="!user">Minhas Reservas <i class="calendar check icon"></i></a>
     </div>
 </div>
 <br>

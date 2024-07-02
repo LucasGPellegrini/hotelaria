@@ -13,16 +13,16 @@
         <div class="cpfdiv">
           <label class="textinho">Faça login com seu CPF</label>
           <div class="ui input focus" id="cpf_input">
-            <input type="text"
+            <input type="text" id="cpfinput"
             placeholder="123.456.789-10"
             pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}">
           </div>
-          <button class="ui primary button" id="continuar">Continuar</button>
+          <button class="ui primary button" id="continuar" (click)="onClickContinuar()">Continuar</button>
         </div>
         
         <div class="cadastrar_div">
           <label class="textinho">Ainda não possui uma conta?</label>
-          <button class="ui violet button" id="cadastrar">Cadastrar-se</button>
+          <button class="ui violet button" id="cadastrar" (click)="onClickCadastrar()">Cadastrar-se</button>
         </div>
       </div>
     </div>
