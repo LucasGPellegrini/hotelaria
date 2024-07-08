@@ -5,6 +5,7 @@ import com.projeto.hotelaria.repository.UsuarioRepository;
 import com.projeto.hotelaria.service.UsuarioService;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -47,7 +48,8 @@ public class UsuarioServiceImpl implements UsuarioService {
 
     @Override
     public Usuario pegaUsuario(String cpf) {
-        return usuarioRepository.findById(cpf).get();
+        Optional<Usuario> response = usuarioRepository.findById(cpf);
+        return response.orElse(null);
     }
 
     @Override

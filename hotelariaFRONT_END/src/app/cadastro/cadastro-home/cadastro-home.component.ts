@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
+import { pegaUsuario, criaUsuario } from './../../controller/rest'
+
 @Component({
   selector: 'app-cadastro-home',
   templateUrl: './cadastro-home.component.html',
@@ -9,10 +11,12 @@ import { Router } from '@angular/router';
 export class CadastroHomeComponent {
   constructor( private router: Router ) {}
 
-  onClickContinuar():any {
+  async onClickContinuar():Promise<any> {
     const cpf = <HTMLInputElement>document.getElementById('cpfinput')
     const nome = <HTMLInputElement>document.getElementById('nomeinput')
     const nasc = <HTMLInputElement>document.getElementById('nascinput')
+
+    let data_nasc = new Date()
 
     let alerta:String = ''
 
@@ -24,16 +28,26 @@ export class CadastroHomeComponent {
     }
     if (nasc.valueAsDate == null) {
       alerta += "Insira uma data"
+    } else {
+      data_nasc = nasc.valueAsDate
     }
     
 
     if (alerta !== '') {
       alert(alerta)
-    }
-    else {
-      //TODO: POST -> insert no BD
+    } else {
+      const usuario = await pegaUsuario(cpf.value)
 
-      this.router.navigate(['/inicio']);
+      if (usuario) {
+        alert("CPF já condiz com um usuário cadastrado!")
+      }
+      else {
+        await criaUsuario(cpf.value, nome.value, data_nasc);
+
+        alert("Usuario criado!")
+
+        this.router.navigate(['/inicio']);
+      }
     }
   }
 }
